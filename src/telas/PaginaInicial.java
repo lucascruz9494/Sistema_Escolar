@@ -11,6 +11,7 @@ import javax.swing.GroupLayout.Alignment;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
@@ -55,7 +56,9 @@ public class PaginaInicial extends JFrame {
 				cadastro.setVisible(true);
 			}
 		});
-		
+		JLabel lblNewLabel_3 = new JLabel("Por Lucas Cruz");
+		lblNewLabel_3.setBounds(10, 200, 80, 79);
+		contentPane.add(lblNewLabel_3);
 		JButton btBoletim = new JButton("Boletim");
 		btBoletim.setIcon(new ImageIcon(PaginaInicial.class.getResource("/imagens/2_atualizar_aluno_x32.png")));
 		btBoletim.setFocusable(false);

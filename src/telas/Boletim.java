@@ -19,9 +19,7 @@ import javax.swing.SwingConstants;
 
 public class Boletim extends JFrame {
 
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField tfAv1;
@@ -39,9 +37,6 @@ public class Boletim extends JFrame {
 	}
 	
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -55,9 +50,7 @@ public class Boletim extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public Boletim() {
 		setTitle("Sistema Escolar");
 		setResizable(false);

@@ -178,7 +178,6 @@ public class CadastroAluno extends JFrame {
 		tfEmail.setColumns(10);
 	}
 	
-	//métodos do CRUD
 	private void cadastrar() {
 		String sql = "insert into tbalunos (cpfaluno, nomealu, emailalu) values (?,?,?)";
 		
